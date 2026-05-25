@@ -39,12 +39,6 @@ Regardless of the data migration strategy chosen, the blueprints follow a strict
     * Drop the migrated tables from the legacy monolith database.
     * Delete dead module code from the new microservice codebase.
 
-## 🛠️ Repository Structure
-
-* `/src/DualWrite/` - Contains interfaces and abstract managers for the Dual Write pattern.
-* `/src/CDC/` - Contains interfaces and abstract orchestrators for the Change Data Capture pattern.
-* `/src/Shared/` - Contains the aggregator and provisioner patterns shared across both strategies.
-
 *(Note to users: These are architectural templates and interfaces, not highly opinionated implementation libraries. Use them as a structural guide for your own domain).*
 
 ## 📄 License
